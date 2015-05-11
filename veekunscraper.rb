@@ -15,7 +15,7 @@ File.open('pokemonlist.json', 'w') do |f|
   	$i += 1
   end 
 
-  f.puts "];"
+  f.puts "]"
 end
 
 =begin example json
