@@ -1,5 +1,4 @@
 # veekun_scraper
-Scrapes a single page of Veekun for Pokemon data
 
 The veekun_scraper is a Ruby script that allows you to pull Pokemon data from single pages of Veekun and format it they way you want it.  There are currently two examples.  
 
