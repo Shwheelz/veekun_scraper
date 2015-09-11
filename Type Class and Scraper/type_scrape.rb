@@ -73,6 +73,7 @@ File.open('Types.rb', 'w') do |f|
 		super_effective.clear
 		not_very_effective.clear
 		doesnt_effect.clear
+		
+		f.puts "end"
 	end	
-	f.puts "end"
 end

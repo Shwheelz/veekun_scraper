@@ -17,6 +17,7 @@ class Bug
   def self.doesnt_effect
     []
   end
+end
 class Dark
   def self.weaknesses
     ["Bug", "Fairy", "Fighting"]
@@ -36,6 +37,7 @@ class Dark
   def self.doesnt_effect
     []
   end
+end
 class Dragon
   def self.weaknesses
     ["Dragon", "Fairy", "Ice"]
@@ -55,6 +57,7 @@ class Dragon
   def self.doesnt_effect
     []
   end
+end
 class Electric
   def self.weaknesses
     ["Ground"]
@@ -74,6 +77,7 @@ class Electric
   def self.doesnt_effect
     []
   end
+end
 class Fairy
   def self.weaknesses
     ["Poison", "Steel"]
@@ -93,6 +97,7 @@ class Fairy
   def self.doesnt_effect
     []
   end
+end
 class Fighting
   def self.weaknesses
     ["Fairy", "Flying", "Psychic"]
@@ -112,6 +117,7 @@ class Fighting
   def self.doesnt_effect
     []
   end
+end
 class Fire
   def self.weaknesses
     ["Ground", "Rock", "Water"]
@@ -131,6 +137,7 @@ class Fire
   def self.doesnt_effect
     []
   end
+end
 class Flying
   def self.weaknesses
     ["Electric", "Ice", "Rock"]
@@ -150,6 +157,7 @@ class Flying
   def self.doesnt_effect
     []
   end
+end
 class Ghost
   def self.weaknesses
     ["Dark", "Ghost"]
@@ -169,6 +177,7 @@ class Ghost
   def self.doesnt_effect
     []
   end
+end
 class Grass
   def self.weaknesses
     ["Bug", "Fire", "Flying", "Ice", "Poison"]
@@ -188,6 +197,7 @@ class Grass
   def self.doesnt_effect
     []
   end
+end
 class Ground
   def self.weaknesses
     ["Grass", "Ice", "Water"]
@@ -207,6 +217,7 @@ class Ground
   def self.doesnt_effect
     []
   end
+end
 class Ice
   def self.weaknesses
     ["Fighting", "Fire", "Rock", "Steel"]
@@ -226,6 +237,7 @@ class Ice
   def self.doesnt_effect
     []
   end
+end
 class Normal
   def self.weaknesses
     ["Fighting"]
@@ -245,6 +257,7 @@ class Normal
   def self.doesnt_effect
     []
   end
+end
 class Poison
   def self.weaknesses
     ["Ground", "Psychic"]
@@ -264,6 +277,7 @@ class Poison
   def self.doesnt_effect
     []
   end
+end
 class Psychic
   def self.weaknesses
     ["Bug", "Dark", "Ghost"]
@@ -283,6 +297,7 @@ class Psychic
   def self.doesnt_effect
     []
   end
+end
 class Rock
   def self.weaknesses
     ["Fighting", "Grass", "Ground", "Steel", "Water"]
@@ -302,6 +317,7 @@ class Rock
   def self.doesnt_effect
     []
   end
+end
 class Steel
   def self.weaknesses
     ["Fighting", "Fire", "Ground"]
@@ -321,6 +337,7 @@ class Steel
   def self.doesnt_effect
     []
   end
+end
 class Water
   def self.weaknesses
     ["Electric", "Grass"]
